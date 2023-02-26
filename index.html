@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ninja Studio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav id="navbar">
+    <span class="flex items-center" id="span1">
+      <!-- logo -->
+      <img src="assets/images/ninjaStudio.png" id="logo">
+
+      <!-- favourites -->
+      <a> Favourites </a>
+    </span>
+
+    <span id="span2" class="flex items-center justify-between">
+      <!-- search -->
+      <span class="flex items-center justify-center relative">
+        <img src="assets/icons/search.png" class="icon left-4">
+        <input type="text" id="search-field" placeholder="Search">
+        <img src="assets/icons/mic.png" class="icon right-4">
+      </span>
+
+      <!-- notification -->
+      <span id="notification">
+        <img src="assets/icons/bell.png" class="bell" />
+      </span>
+
+      <!-- profile pic -->
+      <img src="assets/images/profile.png" width="60px">
+    </span>
+  </nav>
+  <!-- /navbar -->
+
+  <!-- main content  -->
+  <section id="main-content">
+    <!-- col1 -->
+    <div id="col1">
+      <!-- banner -->
+      <div id="banner" class="flex justify-between">
+        <img src="assets/images/banner.png" alt="">
+        <div class="w-100" style="padding: 2% 3%;">
+          <div class="flex justify-between items-center">
+            <span>
+              <h2 class="m-0 p-0">ColdPlay</h2>
+              <p class="label m-2">British Band</p>
+            </span>
+
+            <p class="label">851 followers</p>
+          </div>
+
+          <div>
+            <p class="text">
+              Coldplay is a British music band that has enjoyed continuous updates success since their inception in 1996
+              through their intelligent
+              and soulful songs. The band members are Chris Martin (lead bocals), Jonny Buckland (lead guitar), Guy
+              Berryman (bass guitar) and Will Champion (drums).
+            </p>
+          </div>
+
+          <div class="flex items-center">
+            <button class="button gradient-background"> Play All </button>
+            <button class="button"> Follow </button>
+          </div>
+
+          <p class="text text-white"> 247 Tracks | 128 Albums </p>
+        </div>
+      </div>
+
+      <!-- songs -->
+      <div id="playlist-songs">
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">01</p>
+            <div class="song-cover-image-container">
+              <img src="assets/images/song4.png" class="song-cover-image mx-4" >
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">Mirage</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Else</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+
+
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">02</p>
+            <div class="song-cover-image-container">
+              <div class="song-cover-image-container">
+                <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+                <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+              </div>
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">Worry Bout Us</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Rosie Lowe</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">03</p>
+            <div class="song-cover-image-container">
+              <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">New Skin</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Flume</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">04</p>
+            <div class="song-cover-image-container">
+              <div class="song-cover-image-container">
+                <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+                <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+              </div>
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">Worry BOut Us</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Rosie Lowe</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">05</p>
+            <div class="song-cover-image-container">
+              <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">New Skin</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Flume</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+        <div class="song py-6">
+          <div class="flex items-center">
+            <p style="font-size: 12px;" class="mx-4">06</p>
+            <div class="song-cover-image-container">
+              <img src="assets/images/song3.png" class="song-cover-image mx-4" >
+              <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+            </div>
+            <div class="mx-4">
+              <h4 class="m-0 p-0" style="font-size: 12px;">Mirage</h>
+                <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Else</p>
+            </div>
+          </div>
+          <div style="display:flex">
+            <span class="m-8">
+              <div class="plus"><i class="far fa-heart"></i></div>
+            </span>
+            <span class="m-8 plus">+</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /col1 -->
+
+    <!-- col2 -->
+    <div id="col2">
+      <!-- similar artists -->
+
+      <div id="similar-artists">
+        <div class="aside">
+          <h4 class="m-0">Similar Artists</h4>
+          <p class="text-grey m-0"> View All</p>
+        </div>
+        <div class="aside">
+          <span class="aside"><img src="assets/images/song4.png" class="img">
+            <div class=" py-6" style="margin-left: 20px;">
+              <h4 class=" " style="font-size: 10px; ">Imagie Dragons</h4>
+              <p class="text-grey m-0" style="font-size: 10px;">Pop Band</p>
+            </div>
+          </span>
+
+          <div class="text-grey flex flex-col items-end">
+            <i class="fa-solid fa-ellipsis"></i>
+            <p class="view-music-duration">4:44</p>
+          </div>
+        </div>
+        <div class="aside ">
+          <span class="aside "><img src="assets/images/song4.png" class="img">
+            <div class=" " style="margin-left: 20px;">
+              <h4 class="" style="font-size: 10px;">Imagie Dragons</h4>
+              <p class="text-grey" style="font-size: 10px;">Pop Band</p>
+            </div>
+          </span>
+
+          <div class="text-grey flex flex-col items-end">
+            <i class="fa-solid fa-ellipsis"></i>
+            <p class="view-music-duration">4:44</p>
+          </div>
+        </div>
+        <div class="aside ">
+          <span class="aside "><img src="assets/images/song4.png" class="img">
+            <div class="" style="margin-left: 20px;">
+              <h4 class="" style="font-size: 10px;">Imagie Dragons</h4>
+              <p class="text-grey" style="font-size: 10px;">Pop Band</p>
+            </div>
+          </span>
+
+          <div class="text-grey flex flex-col items-end">
+            <i class="fa-solid fa-ellipsis"></i>
+            <p class="view-music-duration">4:44</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- recently played -->
+      <div id="recently-played">
+        <div class="aside">
+          <h4>Recently Played</h4>
+          <p>View All</p>
+        </div>
+      </div>
+      <div class="recently py-6">
+        <div class="flex items-center">
+          <p style="font-size: 12px;" class="mx-4">01</p>
+          <div class="song-cover-image-container">
+            <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+            <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+          </div>
+          <div class="mx-4">
+            <h4 class="m-0 p-0" style="font-size: 12px;">Mirage</h>
+              <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Else</p>
+          </div>
+        </div>
+        <div style="display:flex">
+          <span class="m-8">
+            <div class="plus"><i class="far fa-heart"></i></div>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="recently py-6">
+        <div class="flex items-center">
+          <p style="font-size: 12px;" class="mx-4 d-none">02</p>
+          <i class="fa-solid fa-pause mx-4"></i>
+          <div class="song-cover-image-container">
+            <img src="assets/images/song2.png" class="song-cover-image mx-4">
+            <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+          </div>
+          <div class="mx-4">
+            <h4 class="m-0 p-0" style="font-size: 12px;">Worry Bout Us</h>
+              <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Rosie Lowe</p>
+          </div>
+        </div>
+        <div style="display:flex">
+          <span class="m-8">
+            <div class="plus"><i class="far fa-heart"></i></div>
+          </span>
+        </div>
+      </div>
+
+      <div class="recently py-6">
+        <div class="flex items-center">
+          <p style="font-size: 12px;" class="mx-4">03</p>
+          <div class="song-cover-image-container">
+            <img src="assets/images/song2.png" class="song-cover-image mx-4" >
+            <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+          </div>
+          <div class="mx-4">
+            <h4 class="m-0 p-0" style="font-size: 12px;">New Skin</h>
+              <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Flume</p>
+          </div>
+        </div>
+        <div style="display:flex">
+          <span class="m-8">
+            <div class="plus"><i class="far fa-heart"></i></div>
+          </span>
+        </div>
+      </div>
+
+      <div class="recently py-6">
+        <div class="flex items-center">
+          <p style="font-size: 12px;" class="mx-4">04</p>
+          <div class="song-cover-image-container">
+            <img src="assets/images/song2.png" class="song-cover-image mx-4">
+            <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+          </div>
+          <div class="mx-4">
+            <h4 class="m-0 p-0" style="font-size: 12px;">Worry BOut Us</h>
+              <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Rosie Lowe</p>
+          </div>
+        </div>
+        <div style="display:flex">
+          <span class="m-8">
+            <div class="plus"><i class="far fa-heart"></i></div>
+          </span>
+        </div>
+      </div>
+      <div class="recently py-6">
+        <div class="flex items-center">
+          <p style="font-size: 12px;" class="mx-4">05</p>
+          <div class="song-cover-image-container">
+            <img src="assets/images/song2.png" class="song-cover-image mx-4">
+            <div class="overlay"> <i class="fa-solid fa-play"></i> </div>
+          </div>
+          <div class="mx-4">
+            <h4 class="m-0 p-0" style="font-size: 12px;">New Skin</h>
+              <p class="m-0 p-0" style="font-size: 10px; font-weight: 500;">Flume</p>
+          </div>
+        </div>
+        <div style="display:flex">
+          <span class="m-8">
+            <div class="plus"><i class="far fa-heart"></i></div>
+          </span>
+        </div>
+      </div>
+
+    </div>
+    <!-- /col2 -->
+  </section>
+  <!-- /main content  -->
+
+  <!-- sticky-bottom -->
+  <div id="music-player">
+    <!-- left -->
+    <div class="recently" style="margin-left:90px ;margin-top: 10px;height: 10px;">
+      <img src="assets/images/song1.png" >
+      <div class="mx-8">
+        <span style="font-size: 15px;"> Imagine By John </span>
+        <span style="display: block; color:grey;font-size: 15px;"> John Lennon</span>
+      </div>
+      <div style="margin-left: 30px;">
+        <span><i class="fa-regular fa-heart text-grey mx-8"></i></span>
+        <span><i class="fa-solid fa-ban text-grey mx-8"></i></span>
+      </div>
+    </div>
+
+    <!-- mid -->
+    <div style="margin-top: 10px ;" >
+      <div class="py-6 " style="margin-left: 150px;">
+        <i class="fa-solid fa-shuffle mx-8"></i>
+        <i class="fa-solid fa-backward-step mx-8"></i>
+        <i class="fa-solid fa-pause mx-8"></i>
+        <i class="fa-solid fa-forward-step mx-8"></i>
+        <i class="fa-solid fa-repeat mx-8"></i>
+      </div>
+      <div class="py-4" >
+        <span class="media-player-time">1:39</span>
+        <input type="range" id="mid">
+        <span class="media-player-time">4:44</span>
+      </div>
+      
+    </div>
+
+    <!-- right -->
+    <div style="margin-top: 10px;">
+      <i class="fa-solid fa-rectangle-list mx-8  "></i>
+      <i class="fa-solid fa-file-audio mx-8"></i>
+      <i class="fa-solid fa-volume-high mx-8"></i>
+      <input type="range" id="right">
+      <i class="fa-solid fa-up-right-and-down-left-from-center mx-8"></i>
+    </div>
+  </div>
+  <!-- /sticky-bottom -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
